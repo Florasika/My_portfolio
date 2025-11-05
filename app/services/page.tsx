@@ -11,11 +11,11 @@ export default function ServicesPage() {
     <div className="min-h-screen bg-black">
       {/* Navigation */}
       <nav className="fixed top-0 w-full bg-black/80 backdrop-blur-md border-b border-pink-500/20 z-50">
-        <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3 sm:py-4 flex justify-between items-center">
           <Link href="/">
-            <h1 className="text-xl font-semibold tracking-tight text-white">Flora NOUDOUKOU</h1>
+            <h1 className="text-lg sm:text-xl font-semibold tracking-tight text-white">Flora</h1>
           </Link>
-          <div className="flex gap-6 items-center">
+          <div className="hidden sm:flex gap-6 items-center">
             <Link href="/services" className="text-sm text-pink-400 transition-colors">Services</Link>
             <Link href="/portfolio" className="text-sm text-white hover:text-pink-400 transition-colors">Portfolio</Link>
             <Link href="/about" className="text-sm text-white hover:text-pink-400 transition-colors">À propos</Link>
@@ -29,7 +29,7 @@ export default function ServicesPage() {
       </nav>
 
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-6 relative overflow-hidden">
+      <section className="pt-24 sm:pt-32 pb-16 sm:pb-20 px-4 sm:px-6 relative overflow-hidden">
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute top-20 left-10 w-72 h-72 bg-pink-500/20 rounded-full blur-3xl animate-pulse"></div>
           <div className="absolute bottom-20 right-10 w-96 h-96 bg-pink-600/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
@@ -58,7 +58,7 @@ export default function ServicesPage() {
                 <Palette className="w-8 h-8 text-white" />
               </div>
               <h2 className="text-5xl font-bold tracking-tight mb-6 text-white">Design UI/UX</h2>
-              <p className="text-lg text-gray-300 mb-8 leading-relaxed">
+              <p className="text-base sm:text-lg text-gray-300 mb-6 sm:mb-8 leading-relaxed">
                 Je crée des interfaces utilisateur intuitives et visuellement captivantes qui transforment vos visiteurs en clients fidèles. 
                 Mon approche centrée sur l&apos;utilisateur garantit une expérience fluide et mémorable.
               </p>
@@ -155,7 +155,7 @@ export default function ServicesPage() {
                 <Code className="w-8 h-8 text-white" />
               </div>
               <h2 className="text-5xl font-bold tracking-tight mb-6 text-white">Développement Front-End</h2>
-              <p className="text-lg text-gray-300 mb-8 leading-relaxed">
+              <p className="text-base sm:text-lg text-gray-300 mb-6 sm:mb-8 leading-relaxed">
                 Je transforme vos designs en applications web performantes, réactives et optimisées. 
                 Mon code est propre, maintenable et suit les meilleures pratiques de l&apos;industrie.
               </p>
@@ -206,7 +206,7 @@ export default function ServicesPage() {
                 <Layers className="w-8 h-8 text-white" />
               </div>
               <h2 className="text-5xl font-bold tracking-tight mb-6 text-white">Développement WordPress</h2>
-              <p className="text-lg text-gray-300 mb-8 leading-relaxed">
+              <p className="text-base sm:text-lg text-gray-300 mb-6 sm:mb-8 leading-relaxed">
                 Je crée des sites WordPress sur mesure, faciles à gérer et qui évoluent avec votre entreprise. 
                 De la simple vitrine au site e-commerce complexe, je maîtrise toutes les facettes de WordPress.
               </p>
@@ -281,14 +281,14 @@ export default function ServicesPage() {
             <Badge variant="secondary" className="mb-4 rounded-full bg-pink-500/20 text-pink-300 border-pink-500/30">
               Mon Processus
             </Badge>
-            <h2 className="text-5xl font-bold tracking-tight mb-4 text-white">Comment je travaille</h2>
-            <p className="text-xl text-gray-400 max-w-2xl mx-auto">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight mb-3 sm:mb-4 text-white">Comment je travaille</h2>
+            <p className="text-base sm:text-lg md:text-xl text-gray-400 max-w-2xl mx-auto">
               Une approche structurée pour garantir le succès de votre projet
             </p>
           </div>
 
           <div className="grid md:grid-cols-4 gap-8">
-            <Card className="p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30 text-center">
+            <Card className="p-6 sm:p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30 text-center">
               <div className="w-16 h-16 bg-gradient-to-br from-pink-500 to-pink-600 rounded-full flex items-center justify-center mx-auto mb-6 glow-pink text-2xl font-bold text-white">
                 1
               </div>
@@ -296,7 +296,7 @@ export default function ServicesPage() {
               <p className="text-gray-400">Comprendre vos objectifs, votre audience et vos besoins spécifiques.</p>
             </Card>
 
-            <Card className="p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30 text-center">
+            <Card className="p-6 sm:p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30 text-center">
               <div className="w-16 h-16 bg-gradient-to-br from-pink-500 to-pink-600 rounded-full flex items-center justify-center mx-auto mb-6 glow-pink text-2xl font-bold text-white">
                 2
               </div>
@@ -304,7 +304,7 @@ export default function ServicesPage() {
               <p className="text-gray-400">Création de wireframes, maquettes et prototypes interactifs.</p>
             </Card>
 
-            <Card className="p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30 text-center">
+            <Card className="p-6 sm:p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30 text-center">
               <div className="w-16 h-16 bg-gradient-to-br from-pink-500 to-pink-600 rounded-full flex items-center justify-center mx-auto mb-6 glow-pink text-2xl font-bold text-white">
                 3
               </div>
@@ -312,7 +312,7 @@ export default function ServicesPage() {
               <p className="text-gray-400">Transformation des designs en code propre et performant.</p>
             </Card>
 
-            <Card className="p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30 text-center">
+            <Card className="p-6 sm:p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30 text-center">
               <div className="w-16 h-16 bg-gradient-to-br from-pink-500 to-pink-600 rounded-full flex items-center justify-center mx-auto mb-6 glow-pink text-2xl font-bold text-white">
                 4
               </div>

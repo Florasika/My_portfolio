@@ -11,11 +11,11 @@ export default function PortfolioPage() {
     <div className="min-h-screen bg-black">
       {/* Navigation */}
       <nav className="fixed top-0 w-full bg-black/80 backdrop-blur-md border-b border-pink-500/20 z-50">
-        <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3 sm:py-4 flex justify-between items-center">
           <Link href="/">
-            <h1 className="text-xl font-semibold tracking-tight text-white">Flora NOUDOUKOU</h1>
+            <h1 className="text-lg sm:text-xl font-semibold tracking-tight text-white">Flora</h1>
           </Link>
-          <div className="flex gap-6 items-center">
+          <div className="hidden sm:flex gap-6 items-center">
             <Link href="/services" className="text-sm text-white hover:text-pink-400 transition-colors">Services</Link>
             <Link href="/portfolio" className="text-sm text-pink-400 transition-colors">Portfolio</Link>
             <Link href="/about" className="text-sm text-white hover:text-pink-400 transition-colors">À propos</Link>
@@ -29,7 +29,7 @@ export default function PortfolioPage() {
       </nav>
 
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-6 relative overflow-hidden">
+      <section className="pt-24 sm:pt-32 pb-16 sm:pb-20 px-4 sm:px-6 relative overflow-hidden">
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute top-20 left-10 w-72 h-72 bg-pink-500/20 rounded-full blur-3xl animate-pulse"></div>
           <div className="absolute bottom-20 right-10 w-96 h-96 bg-pink-600/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
@@ -81,7 +81,7 @@ export default function PortfolioPage() {
             <Badge variant="secondary" className="mb-4 rounded-full bg-pink-500/20 text-pink-300 border-pink-500/30">
               Projets Vedettes
             </Badge>
-            <h2 className="text-5xl font-bold tracking-tight mb-4 text-white">Mes meilleurs travaux</h2>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight mb-3 sm:mb-4 text-white">Mes meilleurs travaux</h2>
           </div>
 
           {/* Project 1 - E-commerce Platform */}
@@ -256,7 +256,7 @@ export default function PortfolioPage() {
             <Badge variant="secondary" className="mb-4 rounded-full bg-pink-500/20 text-pink-300 border-pink-500/30">
               Autres Projets
             </Badge>
-            <h2 className="text-5xl font-bold tracking-tight mb-4 text-white">Plus de réalisations</h2>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight mb-3 sm:mb-4 text-white">Plus de réalisations</h2>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

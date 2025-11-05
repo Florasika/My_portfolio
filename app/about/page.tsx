@@ -11,11 +11,11 @@ export default function AboutPage() {
     <div className="min-h-screen bg-black">
       {/* Navigation */}
       <nav className="fixed top-0 w-full bg-black/80 backdrop-blur-md border-b border-pink-500/20 z-50">
-        <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3 sm:py-4 flex justify-between items-center">
           <Link href="/">
-            <h1 className="text-xl font-semibold tracking-tight text-white">Flora NOUDOUKOU</h1>
+            <h1 className="text-lg sm:text-xl font-semibold tracking-tight text-white">Flora</h1>
           </Link>
-          <div className="flex gap-6 items-center">
+          <div className="hidden sm:flex gap-6 items-center">
             <Link href="/services" className="text-sm text-white hover:text-pink-400 transition-colors">Services</Link>
             <Link href="/portfolio" className="text-sm text-white hover:text-pink-400 transition-colors">Portfolio</Link>
             <Link href="/about" className="text-sm text-pink-400 transition-colors">À propos</Link>
@@ -29,7 +29,7 @@ export default function AboutPage() {
       </nav>
 
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-6 relative overflow-hidden">
+      <section className="pt-24 sm:pt-32 pb-16 sm:pb-20 px-4 sm:px-6 relative overflow-hidden">
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute top-20 left-10 w-72 h-72 bg-pink-500/20 rounded-full blur-3xl animate-pulse"></div>
           <div className="absolute bottom-20 right-10 w-96 h-96 bg-pink-600/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
@@ -112,7 +112,7 @@ export default function AboutPage() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
-            <Card className="p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30">
+            <Card className="p-6 sm:p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30">
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-12 h-12 bg-gradient-to-br from-pink-500 to-pink-600 rounded-xl flex items-center justify-center glow-pink">
                   <Palette className="w-6 h-6 text-white" />
@@ -168,7 +168,7 @@ export default function AboutPage() {
               </div>
             </Card>
 
-            <Card className="p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30">
+            <Card className="p-6 sm:p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30">
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-12 h-12 bg-gradient-to-br from-pink-500 to-pink-600 rounded-xl flex items-center justify-center glow-pink">
                   <Award className="w-6 h-6 text-white" />
@@ -240,32 +240,32 @@ export default function AboutPage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
-            <Card className="p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30 hover:border-pink-500/50 transition-all hover:glow-pink text-center">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
+            <Card className="p-6 sm:p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30 hover:border-pink-500/50 transition-all hover:glow-pink text-center">
               <div className="w-16 h-16 bg-gradient-to-br from-pink-500 to-pink-600 rounded-2xl flex items-center justify-center mx-auto mb-6 glow-pink">
                 <Heart className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-2xl font-semibold mb-4 text-white">Passion</h3>
+              <h3 className="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4 text-white">Passion</h3>
               <p className="text-gray-400">
                 Je mets tout mon cœur dans chaque projet. Le design et le développement ne sont pas qu&apos;un travail, c&apos;est ma passion.
               </p>
             </Card>
 
-            <Card className="p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30 hover:border-pink-500/50 transition-all hover:glow-pink text-center">
+            <Card className="p-6 sm:p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30 hover:border-pink-500/50 transition-all hover:glow-pink text-center">
               <div className="w-16 h-16 bg-gradient-to-br from-pink-500 to-pink-600 rounded-2xl flex items-center justify-center mx-auto mb-6 glow-pink">
                 <Sparkles className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-2xl font-semibold mb-4 text-white">Excellence</h3>
+              <h3 className="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4 text-white">Excellence</h3>
               <p className="text-gray-400">
                 Je vise toujours la perfection dans chaque détail, du design au code, pour livrer des produits de qualité supérieure.
               </p>
             </Card>
 
-            <Card className="p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30 hover:border-pink-500/50 transition-all hover:glow-pink text-center">
+            <Card className="p-6 sm:p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30 hover:border-pink-500/50 transition-all hover:glow-pink text-center">
               <div className="w-16 h-16 bg-gradient-to-br from-pink-500 to-pink-600 rounded-2xl flex items-center justify-center mx-auto mb-6 glow-pink">
                 <Award className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-2xl font-semibold mb-4 text-white">Innovation</h3>
+              <h3 className="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4 text-white">Innovation</h3>
               <p className="text-gray-400">
                 Je reste à jour avec les dernières tendances et technologies pour offrir des solutions modernes et innovantes.
               </p>

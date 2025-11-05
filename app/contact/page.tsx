@@ -11,11 +11,11 @@ export default function ContactPage() {
     <div className="min-h-screen bg-black">
       {/* Navigation */}
       <nav className="fixed top-0 w-full bg-black/80 backdrop-blur-md border-b border-pink-500/20 z-50">
-        <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3 sm:py-4 flex justify-between items-center">
           <Link href="/">
-            <h1 className="text-xl font-semibold tracking-tight text-white">Flora NOUDOUKOU</h1>
+            <h1 className="text-lg sm:text-xl font-semibold tracking-tight text-white">Flora</h1>
           </Link>
-          <div className="flex gap-6 items-center">
+          <div className="hidden sm:flex gap-6 items-center">
             <Link href="/services" className="text-sm text-white hover:text-pink-400 transition-colors">Services</Link>
             <Link href="/portfolio" className="text-sm text-white hover:text-pink-400 transition-colors">Portfolio</Link>
             <Link href="/about" className="text-sm text-white hover:text-pink-400 transition-colors">À propos</Link>
@@ -29,7 +29,7 @@ export default function ContactPage() {
       </nav>
 
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-6 relative overflow-hidden">
+      <section className="pt-24 sm:pt-32 pb-16 sm:pb-20 px-4 sm:px-6 relative overflow-hidden">
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute top-20 left-10 w-72 h-72 bg-pink-500/20 rounded-full blur-3xl animate-pulse"></div>
           <div className="absolute bottom-20 right-10 w-96 h-96 bg-pink-600/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
@@ -130,7 +130,7 @@ export default function ContactPage() {
 
             {/* Contact Info */}
             <div className="space-y-8">
-              <Card className="p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30 hover:border-pink-500/50 transition-all hover:glow-pink">
+              <Card className="p-6 sm:p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30 hover:border-pink-500/50 transition-all hover:glow-pink">
                 <div className="flex items-start gap-4">
                   <div className="w-14 h-14 bg-gradient-to-br from-pink-500 to-pink-600 rounded-2xl flex items-center justify-center glow-pink flex-shrink-0">
                     <Mail className="w-7 h-7 text-white" />
@@ -145,7 +145,7 @@ export default function ContactPage() {
                 </div>
               </Card>
 
-              <Card className="p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30 hover:border-pink-500/50 transition-all hover:glow-pink">
+              <Card className="p-6 sm:p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30 hover:border-pink-500/50 transition-all hover:glow-pink">
                 <div className="flex items-start gap-4">
                   <div className="w-14 h-14 bg-gradient-to-br from-pink-500 to-pink-600 rounded-2xl flex items-center justify-center glow-pink flex-shrink-0">
                     <Linkedin className="w-7 h-7 text-white" />
@@ -160,7 +160,7 @@ export default function ContactPage() {
                 </div>
               </Card>
 
-              <Card className="p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30 hover:border-pink-500/50 transition-all hover:glow-pink">
+              <Card className="p-6 sm:p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30 hover:border-pink-500/50 transition-all hover:glow-pink">
                 <div className="flex items-start gap-4">
                   <div className="w-14 h-14 bg-gradient-to-br from-pink-500 to-pink-600 rounded-2xl flex items-center justify-center glow-pink flex-shrink-0">
                     <MapPin className="w-7 h-7 text-white" />
@@ -174,7 +174,7 @@ export default function ContactPage() {
                 </div>
               </Card>
 
-              <Card className="p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30 hover:border-pink-500/50 transition-all hover:glow-pink">
+              <Card className="p-6 sm:p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30 hover:border-pink-500/50 transition-all hover:glow-pink">
                 <div className="flex items-start gap-4">
                   <div className="w-14 h-14 bg-gradient-to-br from-pink-500 to-pink-600 rounded-2xl flex items-center justify-center glow-pink flex-shrink-0">
                     <Clock className="w-7 h-7 text-white" />
@@ -203,49 +203,49 @@ export default function ContactPage() {
             <Badge variant="secondary" className="mb-4 rounded-full bg-pink-500/20 text-pink-300 border-pink-500/30">
               FAQ
             </Badge>
-            <h2 className="text-5xl font-bold tracking-tight mb-4 text-white">Questions fréquentes</h2>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight mb-3 sm:mb-4 text-white">Questions fréquentes</h2>
             <p className="text-xl text-gray-400">
               Vous avez des questions ? Voici quelques réponses
             </p>
           </div>
 
           <div className="space-y-6">
-            <Card className="p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30">
+            <Card className="p-6 sm:p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30">
               <h3 className="text-xl font-semibold text-white mb-3">💰 Quels sont vos tarifs ?</h3>
               <p className="text-gray-400">
                 Mes tarifs varient selon la complexité et l&apos;envergure du projet. Je propose des devis personnalisés après avoir discuté de vos besoins spécifiques. N&apos;hésitez pas à me contacter pour obtenir une estimation gratuite.
               </p>
             </Card>
 
-            <Card className="p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30">
+            <Card className="p-6 sm:p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30">
               <h3 className="text-xl font-semibold text-white mb-3">⏱️ Quel est le délai de livraison ?</h3>
               <p className="text-gray-400">
                 Le délai dépend de la nature du projet. Un site vitrine simple peut prendre 2-3 semaines, tandis qu&apos;une application web complexe peut nécessiter 2-3 mois. Je fournis toujours un calendrier détaillé avant de commencer.
               </p>
             </Card>
 
-            <Card className="p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30">
+            <Card className="p-6 sm:p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30">
               <h3 className="text-xl font-semibold text-white mb-3">🔄 Proposez-vous des révisions ?</h3>
               <p className="text-gray-400">
                 Oui ! Je propose généralement 2-3 cycles de révisions inclus dans mes projets. Mon objectif est de m&apos;assurer que vous êtes 100% satisfait du résultat final.
               </p>
             </Card>
 
-            <Card className="p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30">
+            <Card className="p-6 sm:p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30">
               <h3 className="text-xl font-semibold text-white mb-3">🌍 Travaillez-vous à distance ?</h3>
               <p className="text-gray-400">
                 Absolument ! Je travaille avec des clients du monde entier. Grâce aux outils de communication modernes, la distance n&apos;est plus un obstacle. Je suis disponible pour des appels vidéo, des réunions en ligne et une communication régulière.
               </p>
             </Card>
 
-            <Card className="p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30">
+            <Card className="p-6 sm:p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30">
               <h3 className="text-xl font-semibold text-white mb-3">🛠️ Offrez-vous un support après livraison ?</h3>
               <p className="text-gray-400">
                 Oui ! Je propose un support post-livraison pour m&apos;assurer que tout fonctionne parfaitement. Je peux également proposer des contrats de maintenance pour les mises à jour et le support continu.
               </p>
             </Card>
 
-            <Card className="p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30">
+            <Card className="p-6 sm:p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30">
               <h3 className="text-xl font-semibold text-white mb-3">📱 Créez-vous des sites responsive ?</h3>
               <p className="text-gray-400">
                 Tous mes projets sont conçus pour être parfaitement responsive et s&apos;adapter à tous les appareils (mobile, tablette, desktop). C&apos;est une priorité absolue dans mon processus de développement.
