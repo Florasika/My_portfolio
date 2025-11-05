@@ -3,7 +3,7 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { ArrowRight, Sparkles, Zap, Heart, Palette, Code, Layers, CheckCircle2, Users, Target, Rocket } from "lucide-react";
+import { ArrowRight, Sparkles, Palette, Code, Layers, CheckCircle2, Users, Target, Rocket } from "lucide-react";
 import Link from "next/link";
 
 export default function ServicesPage() {
