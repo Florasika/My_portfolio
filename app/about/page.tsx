@@ -46,7 +46,7 @@ export default function AboutPage() {
                 Bonjour, je suis <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-pink-600">Flora</span>
               </h1>
               <p className="text-xl text-gray-300 mb-6 leading-relaxed">
-                Designer UI/UX et Développeuse Front-End passionnée par la création d'expériences numériques exceptionnelles.
+                Designer UI/UX et Développeuse Front-End passionnée par la création d&apos;expériences numériques exceptionnelles.
               </p>
               <p className="text-lg text-gray-400 mb-8 leading-relaxed">
                 Basée à Lomé, Togo, je combine créativité et expertise technique pour transformer des idées en produits digitaux qui font la différence. 
@@ -88,7 +88,7 @@ export default function AboutPage() {
                     <div>
                       <h4 className="font-semibold text-pink-300">Bostonsolux</h4>
                       <p className="text-gray-400">Stagiaire Projet • Mars 2025 - Présent</p>
-                      <p className="text-gray-500 text-sm mt-1">Développement de projets web et design d'interfaces</p>
+                      <p className="text-gray-500 text-sm mt-1">Développement de projets web et design d&apos;interfaces</p>
                     </div>
                   </div>
                 </div>
@@ -247,7 +247,7 @@ export default function AboutPage() {
               </div>
               <h3 className="text-2xl font-semibold mb-4 text-white">Passion</h3>
               <p className="text-gray-400">
-                Je mets tout mon cœur dans chaque projet. Le design et le développement ne sont pas qu'un travail, c'est ma passion.
+                Je mets tout mon cœur dans chaque projet. Le design et le développement ne sont pas qu&apos;un travail, c&apos;est ma passion.
               </p>
             </Card>
 
@@ -283,7 +283,7 @@ export default function AboutPage() {
             </Badge>
             <h2 className="text-5xl font-bold tracking-tight mb-4 text-white">Mes passions</h2>
             <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-              Ce qui m'inspire et me ressource au quotidien
+              Ce qui m&apos;inspire et me ressource au quotidien
             </p>
           </div>
 
@@ -291,7 +291,7 @@ export default function AboutPage() {
             <Card className="p-6 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30 text-center hover:border-pink-500/50 transition-all">
               <Coffee className="w-12 h-12 text-pink-400 mx-auto mb-4" />
               <h4 className="font-semibold text-white mb-2">Café & Design</h4>
-              <p className="text-gray-400 text-sm">Mes meilleures idées naissent autour d'un bon café</p>
+              <p className="text-gray-400 text-sm">Mes meilleures idées naissent autour d&apos;un bon café</p>
             </Card>
 
             <Card className="p-6 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30 text-center hover:border-pink-500/50 transition-all">
@@ -303,13 +303,13 @@ export default function AboutPage() {
             <Card className="p-6 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30 text-center hover:border-pink-500/50 transition-all">
               <BookOpen className="w-12 h-12 text-pink-400 mx-auto mb-4" />
               <h4 className="font-semibold text-white mb-2">Apprentissage</h4>
-              <p className="text-gray-400 text-sm">Toujours en train d'apprendre de nouvelles technologies</p>
+              <p className="text-gray-400 text-sm">Toujours en train d&apos;apprendre de nouvelles technologies</p>
             </Card>
 
             <Card className="p-6 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30 text-center hover:border-pink-500/50 transition-all">
               <Palette className="w-12 h-12 text-pink-400 mx-auto mb-4" />
               <h4 className="font-semibold text-white mb-2">Art & Créativité</h4>
-              <p className="text-gray-400 text-sm">Exploration de différentes formes d'expression artistique</p>
+              <p className="text-gray-400 text-sm">Exploration de différentes formes d&apos;expression artistique</p>
             </Card>
           </div>
         </div>
@@ -320,10 +320,10 @@ export default function AboutPage() {
         <div className="max-w-5xl mx-auto">
           <Card className="p-16 bg-gradient-to-br from-pink-500/20 to-pink-600/10 border-pink-500/40 glow-pink-strong text-center">
             <h2 className="text-5xl font-bold tracking-tight mb-6 text-white">
-              Créons quelque chose d'incroyable ensemble
+              Créons quelque chose d&apos;incroyable ensemble
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Si vous cherchez quelqu'un de passionné, créatif et dévoué pour votre prochain projet, parlons-en !
+              Si vous cherchez quelqu&apos;un de passionné, créatif et dévoué pour votre prochain projet, parlons-en !
             </p>
             <div className="flex gap-4 justify-center">
               <Link href="/contact">

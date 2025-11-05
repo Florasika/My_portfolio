@@ -3,7 +3,7 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Mail, Linkedin, MapPin, Phone, Clock, Send, MessageSquare, Calendar } from "lucide-react";
+import { Mail, Linkedin, MapPin, Clock, Send, MessageSquare, Calendar } from "lucide-react";
 import Link from "next/link";
 
 export default function ContactPage() {
@@ -45,7 +45,7 @@ export default function ContactPage() {
           </h1>
           <p className="text-xl text-gray-300 mb-8 leading-relaxed max-w-3xl mx-auto">
             Vous avez un projet en tête ? Une question ? Ou simplement envie de discuter ? 
-            Je serais ravie d'échanger avec vous !
+            Je serais ravie d&apos;échanger avec vous !
           </p>
         </div>
       </section>
@@ -213,42 +213,42 @@ export default function ContactPage() {
             <Card className="p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30">
               <h3 className="text-xl font-semibold text-white mb-3">💰 Quels sont vos tarifs ?</h3>
               <p className="text-gray-400">
-                Mes tarifs varient selon la complexité et l'envergure du projet. Je propose des devis personnalisés après avoir discuté de vos besoins spécifiques. N'hésitez pas à me contacter pour obtenir une estimation gratuite.
+                Mes tarifs varient selon la complexité et l&apos;envergure du projet. Je propose des devis personnalisés après avoir discuté de vos besoins spécifiques. N&apos;hésitez pas à me contacter pour obtenir une estimation gratuite.
               </p>
             </Card>
 
             <Card className="p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30">
               <h3 className="text-xl font-semibold text-white mb-3">⏱️ Quel est le délai de livraison ?</h3>
               <p className="text-gray-400">
-                Le délai dépend de la nature du projet. Un site vitrine simple peut prendre 2-3 semaines, tandis qu'une application web complexe peut nécessiter 2-3 mois. Je fournis toujours un calendrier détaillé avant de commencer.
+                Le délai dépend de la nature du projet. Un site vitrine simple peut prendre 2-3 semaines, tandis qu&apos;une application web complexe peut nécessiter 2-3 mois. Je fournis toujours un calendrier détaillé avant de commencer.
               </p>
             </Card>
 
             <Card className="p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30">
               <h3 className="text-xl font-semibold text-white mb-3">🔄 Proposez-vous des révisions ?</h3>
               <p className="text-gray-400">
-                Oui ! Je propose généralement 2-3 cycles de révisions inclus dans mes projets. Mon objectif est de m'assurer que vous êtes 100% satisfait du résultat final.
+                Oui ! Je propose généralement 2-3 cycles de révisions inclus dans mes projets. Mon objectif est de m&apos;assurer que vous êtes 100% satisfait du résultat final.
               </p>
             </Card>
 
             <Card className="p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30">
               <h3 className="text-xl font-semibold text-white mb-3">🌍 Travaillez-vous à distance ?</h3>
               <p className="text-gray-400">
-                Absolument ! Je travaille avec des clients du monde entier. Grâce aux outils de communication modernes, la distance n'est plus un obstacle. Je suis disponible pour des appels vidéo, des réunions en ligne et une communication régulière.
+                Absolument ! Je travaille avec des clients du monde entier. Grâce aux outils de communication modernes, la distance n&apos;est plus un obstacle. Je suis disponible pour des appels vidéo, des réunions en ligne et une communication régulière.
               </p>
             </Card>
 
             <Card className="p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30">
               <h3 className="text-xl font-semibold text-white mb-3">🛠️ Offrez-vous un support après livraison ?</h3>
               <p className="text-gray-400">
-                Oui ! Je propose un support post-livraison pour m'assurer que tout fonctionne parfaitement. Je peux également proposer des contrats de maintenance pour les mises à jour et le support continu.
+                Oui ! Je propose un support post-livraison pour m&apos;assurer que tout fonctionne parfaitement. Je peux également proposer des contrats de maintenance pour les mises à jour et le support continu.
               </p>
             </Card>
 
             <Card className="p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30">
               <h3 className="text-xl font-semibold text-white mb-3">📱 Créez-vous des sites responsive ?</h3>
               <p className="text-gray-400">
-                Tous mes projets sont conçus pour être parfaitement responsive et s'adapter à tous les appareils (mobile, tablette, desktop). C'est une priorité absolue dans mon processus de développement.
+                Tous mes projets sont conçus pour être parfaitement responsive et s&apos;adapter à tous les appareils (mobile, tablette, desktop). C&apos;est une priorité absolue dans mon processus de développement.
               </p>
             </Card>
           </div>
@@ -271,7 +271,7 @@ export default function ContactPage() {
               <a href="mailto:noudoukouflora24@gmail.com">
                 <Button size="lg" className="rounded-full bg-white text-pink-600 hover:bg-gray-100 text-lg px-8">
                   <Mail className="w-5 h-5 mr-2" />
-                  M'envoyer un email
+                  M&apos;envoyer un email
                 </Button>
               </a>
               <Link href="/portfolio">

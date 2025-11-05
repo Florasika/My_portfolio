@@ -60,7 +60,7 @@ export default function ServicesPage() {
               <h2 className="text-5xl font-bold tracking-tight mb-6 text-white">Design UI/UX</h2>
               <p className="text-lg text-gray-300 mb-8 leading-relaxed">
                 Je crée des interfaces utilisateur intuitives et visuellement captivantes qui transforment vos visiteurs en clients fidèles. 
-                Mon approche centrée sur l'utilisateur garantit une expérience fluide et mémorable.
+                Mon approche centrée sur l&apos;utilisateur garantit une expérience fluide et mémorable.
               </p>
               
               <div className="space-y-4 mb-8">
@@ -89,7 +89,7 @@ export default function ServicesPage() {
                   <CheckCircle2 className="w-6 h-6 text-pink-400 flex-shrink-0 mt-1" />
                   <div>
                     <h4 className="font-semibold text-white mb-1">Tests Utilisateurs</h4>
-                    <p className="text-gray-400">Validation de vos designs avec de vrais utilisateurs pour optimiser l'expérience.</p>
+                    <p className="text-gray-400">Validation de vos designs avec de vrais utilisateurs pour optimiser l&apos;expérience.</p>
                   </div>
                 </div>
               </div>
@@ -137,7 +137,7 @@ export default function ServicesPage() {
           {/* Front-End Development */}
           <div id="frontend" className="grid md:grid-cols-2 gap-16 items-center mb-32">
             <Card className="p-12 bg-gradient-to-br from-pink-500/20 to-pink-600/10 border-pink-500/40 glow-pink order-2 md:order-1">
-              <h3 className="text-2xl font-bold text-white mb-6">Technologies que j'utilise</h3>
+              <h3 className="text-2xl font-bold text-white mb-6">Technologies que j&apos;utilise</h3>
               <div className="grid grid-cols-2 gap-4">
                 <Badge variant="outline" className="border-pink-500/50 text-pink-300 py-2 justify-center">React</Badge>
                 <Badge variant="outline" className="border-pink-500/50 text-pink-300 py-2 justify-center">Next.js</Badge>
@@ -157,7 +157,7 @@ export default function ServicesPage() {
               <h2 className="text-5xl font-bold tracking-tight mb-6 text-white">Développement Front-End</h2>
               <p className="text-lg text-gray-300 mb-8 leading-relaxed">
                 Je transforme vos designs en applications web performantes, réactives et optimisées. 
-                Mon code est propre, maintenable et suit les meilleures pratiques de l'industrie.
+                Mon code est propre, maintenable et suit les meilleures pratiques de l&apos;industrie.
               </p>
               
               <div className="space-y-4 mb-8">
@@ -165,7 +165,7 @@ export default function ServicesPage() {
                   <CheckCircle2 className="w-6 h-6 text-pink-400 flex-shrink-0 mt-1" />
                   <div>
                     <h4 className="font-semibold text-white mb-1">Applications React/Next.js</h4>
-                    <p className="text-gray-400">Développement d'applications web modernes avec les frameworks les plus performants.</p>
+                    <p className="text-gray-400">Développement d&apos;applications web modernes avec les frameworks les plus performants.</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
@@ -331,7 +331,7 @@ export default function ServicesPage() {
               Prêt à démarrer votre projet ?
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Contactez-moi dès aujourd'hui pour discuter de vos besoins et obtenir un devis personnalisé.
+              Contactez-moi dès aujourd&apos;hui pour discuter de vos besoins et obtenir un devis personnalisé.
             </p>
             <Link href="/contact">
               <Button size="lg" className="rounded-full bg-white text-pink-600 hover:bg-gray-100 text-lg px-8">

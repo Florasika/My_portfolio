@@ -46,7 +46,7 @@ export default function Home() {
               Designer UI/UX & <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-pink-600">Développeuse</span> Front-End
             </h1>
             <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-              Je crée de belles expériences numériques centrées sur l'utilisateur qui aident les entreprises à se développer. 
+              Je crée de belles expériences numériques centrées sur l&apos;utilisateur qui aident les entreprises à se développer. 
               Spécialisée en design UI/UX, développement WordPress et applications React.
             </p>
             <div className="flex gap-4">
@@ -85,7 +85,7 @@ export default function Home() {
               </div>
               <h3 className="text-2xl font-semibold mb-4 text-white">Design UI/UX</h3>
               <p className="text-gray-400 mb-6">
-                Création d'interfaces intuitives et visuellement époustouflantes qui captivent vos utilisateurs.
+                Création d&apos;interfaces intuitives et visuellement époustouflantes qui captivent vos utilisateurs.
               </p>
               <Link href="/services#uiux">
                 <Button variant="link" className="text-pink-400 hover:text-pink-300 p-0">
@@ -143,7 +143,7 @@ export default function Home() {
               Prête à donner vie à votre projet ?
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Discutons de votre vision et créons ensemble quelque chose d'extraordinaire.
+              Discutons de votre vision et créons ensemble quelque chose d&apos;extraordinaire.
             </p>
             <div className="flex gap-4 justify-center">
               <Link href="/contact">

@@ -430,3 +430,7 @@ Expected '</', got 's'
  GET / 200 in 87ms
  GET / 200 in 84ms
  GET / 200 in 100ms
+ ✓ Compiled in 475ms
+ ✓ Compiled in 262ms
+ ✓ Compiled in 432ms
+ ✓ Compiled in 943ms

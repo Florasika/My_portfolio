@@ -45,7 +45,7 @@ export default function PortfolioPage() {
           </h1>
           <p className="text-xl text-gray-300 mb-8 leading-relaxed max-w-3xl mx-auto">
             Découvrez une sélection de mes meilleurs projets en design UI/UX et développement web. 
-            Chaque projet raconte une histoire unique de créativité et d'innovation.
+            Chaque projet raconte une histoire unique de créativité et d&apos;innovation.
           </p>
         </div>
       </section>
@@ -64,7 +64,7 @@ export default function PortfolioPage() {
             </Card>
             <Card className="p-6 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30 text-center">
               <div className="text-4xl font-bold text-pink-400 mb-2">3+</div>
-              <p className="text-gray-400">Années d'expérience</p>
+              <p className="text-gray-400">Années d&apos;expérience</p>
             </Card>
             <Card className="p-6 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30 text-center">
               <div className="text-4xl font-bold text-pink-400 mb-2">100%</div>
@@ -102,7 +102,7 @@ export default function PortfolioPage() {
                   </div>
                   <h3 className="text-3xl font-bold mb-4 text-white">Plateforme E-Commerce Moderne</h3>
                   <p className="text-gray-300 mb-6 leading-relaxed">
-                    Refonte complète d'une plateforme e-commerce pour améliorer l'expérience utilisateur et augmenter les conversions. 
+                    Refonte complète d&apos;une plateforme e-commerce pour améliorer l&apos;expérience utilisateur et augmenter les conversions. 
                     Le projet incluait une recherche utilisateur approfondie, la création de wireframes, de prototypes interactifs et le design final.
                   </p>
                   
@@ -150,7 +150,7 @@ export default function PortfolioPage() {
                   </div>
                   <h3 className="text-3xl font-bold mb-4 text-white">Dashboard SaaS Analytique</h3>
                   <p className="text-gray-300 mb-6 leading-relaxed">
-                    Développement d'un tableau de bord SaaS complet avec visualisation de données en temps réel, 
+                    Développement d&apos;un tableau de bord SaaS complet avec visualisation de données en temps réel, 
                     graphiques interactifs et interface utilisateur intuitive. Le projet a été construit avec React et Next.js 
                     pour des performances optimales.
                   </p>
@@ -209,10 +209,10 @@ export default function PortfolioPage() {
                     <Badge variant="outline" className="border-pink-500/50 text-pink-300">Custom Theme</Badge>
                     <Badge variant="outline" className="border-pink-500/50 text-pink-300">SEO</Badge>
                   </div>
-                  <h3 className="text-3xl font-bold mb-4 text-white">Site Web d'Entreprise Premium</h3>
+                  <h3 className="text-3xl font-bold mb-4 text-white">Site Web d&apos;Entreprise Premium</h3>
                   <p className="text-gray-300 mb-6 leading-relaxed">
-                    Création d'un site web d'entreprise sur mesure avec WordPress. Le projet incluait le développement d'un thème personnalisé, 
-                    l'intégration de fonctionnalités avancées, l'optimisation SEO et la formation du client pour la gestion du contenu.
+                    Création d&apos;un site web d&apos;entreprise sur mesure avec WordPress. Le projet incluait le développement d&apos;un thème personnalisé, 
+                    l&apos;intégration de fonctionnalités avancées, l&apos;optimisation SEO et la formation du client pour la gestion du contenu.
                   </p>
                   
                   <div className="space-y-4 mb-6">
@@ -272,7 +272,7 @@ export default function PortfolioPage() {
                 </div>
                 <h3 className="text-xl font-semibold mb-2 text-white">Application Mobile Fitness</h3>
                 <p className="text-gray-400 text-sm mb-4">
-                  Design d'interface pour une application de fitness avec suivi d'activités et plans d'entraînement personnalisés.
+                  Design d&apos;interface pour une application de fitness avec suivi d&apos;activités et plans d&apos;entraînement personnalisés.
                 </p>
                 <Button variant="link" className="text-pink-400 hover:text-pink-300 p-0">
                   En savoir plus <ArrowRight className="w-4 h-4 ml-1" />
@@ -292,7 +292,7 @@ export default function PortfolioPage() {
                 </div>
                 <h3 className="text-xl font-semibold mb-2 text-white">Landing Page SaaS</h3>
                 <p className="text-gray-400 text-sm mb-4">
-                  Page d'atterrissage moderne pour une startup SaaS avec animations fluides et design responsive.
+                  Page d&apos;atterrissage moderne pour une startup SaaS avec animations fluides et design responsive.
                 </p>
                 <Button variant="link" className="text-pink-400 hover:text-pink-300 p-0">
                   En savoir plus <ArrowRight className="w-4 h-4 ml-1" />
@@ -332,7 +332,7 @@ export default function PortfolioPage() {
                 </div>
                 <h3 className="text-xl font-semibold mb-2 text-white">Identité Visuelle Restaurant</h3>
                 <p className="text-gray-400 text-sm mb-4">
-                  Création complète d'identité de marque incluant logo, charte graphique et supports marketing.
+                  Création complète d&apos;identité de marque incluant logo, charte graphique et supports marketing.
                 </p>
                 <Button variant="link" className="text-pink-400 hover:text-pink-300 p-0">
                   En savoir plus <ArrowRight className="w-4 h-4 ml-1" />
@@ -352,7 +352,7 @@ export default function PortfolioPage() {
                 </div>
                 <h3 className="text-xl font-semibold mb-2 text-white">Portfolio Photographe</h3>
                 <p className="text-gray-400 text-sm mb-4">
-                  Site portfolio élégant avec galerie d'images optimisée et système de réservation intégré.
+                  Site portfolio élégant avec galerie d&apos;images optimisée et système de réservation intégré.
                 </p>
                 <Button variant="link" className="text-pink-400 hover:text-pink-300 p-0">
                   En savoir plus <ArrowRight className="w-4 h-4 ml-1" />
@@ -391,7 +391,7 @@ export default function PortfolioPage() {
               Votre projet sera le prochain ?
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Chaque projet est une opportunité de créer quelque chose d'unique. Parlons de votre vision !
+              Chaque projet est une opportunité de créer quelque chose d&apos;unique. Parlons de votre vision !
             </p>
             <div className="flex gap-4 justify-center">
               <Link href="/contact">
