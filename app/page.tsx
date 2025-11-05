@@ -1,102 +1,185 @@
-import Image from "next/image";
+"use client";
+
+import { Button } from "@/components/ui/button";
+import { Card } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { ArrowRight, Sparkles, Zap, Heart } from "lucide-react";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <div className="min-h-screen bg-black">
+      {/* Navigation */}
+      <nav className="fixed top-0 w-full bg-black/80 backdrop-blur-md border-b border-pink-500/20 z-50">
+        <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+          <Link href="/">
+            <h1 className="text-xl font-semibold tracking-tight text-white">Flora NOUDOUKOU</h1>
+          </Link>
+          <div className="flex gap-6 items-center">
+            <Link href="/services" className="text-sm text-white hover:text-pink-400 transition-colors">Services</Link>
+            <Link href="/portfolio" className="text-sm text-white hover:text-pink-400 transition-colors">Portfolio</Link>
+            <Link href="/about" className="text-sm text-white hover:text-pink-400 transition-colors">À propos</Link>
+            <Link href="/contact">
+              <Button size="sm" className="rounded-full bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 glow-pink">
+                Contact
+              </Button>
+            </Link>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
+      </nav>
+
+      {/* Hero Section */}
+      <section className="pt-32 pb-20 px-6 relative overflow-hidden">
+        {/* Animated background elements */}
+        <div className="absolute inset-0 overflow-hidden">
+          <div className="absolute top-20 left-10 w-72 h-72 bg-pink-500/20 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-20 right-10 w-96 h-96 bg-pink-600/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        </div>
+        
+        <div className="max-w-7xl mx-auto relative z-10">
+          <div className="max-w-4xl">
+            <Badge variant="secondary" className="mb-6 rounded-full bg-pink-500/20 text-pink-300 border-pink-500/30">
+              <Sparkles className="w-3 h-3 mr-1" />
+              Disponible pour des projets
+            </Badge>
+            <h1 className="text-7xl font-bold tracking-tight mb-6 leading-tight text-white">
+              Designer UI/UX & <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-pink-600">Développeuse</span> Front-End
+            </h1>
+            <p className="text-xl text-gray-300 mb-8 leading-relaxed">
+              Je crée de belles expériences numériques centrées sur l'utilisateur qui aident les entreprises à se développer. 
+              Spécialisée en design UI/UX, développement WordPress et applications React.
+            </p>
+            <div className="flex gap-4">
+              <Link href="/contact">
+                <Button size="lg" className="rounded-full bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 glow-pink text-lg px-8">
+                  Démarrer un projet <ArrowRight className="w-5 h-5 ml-2" />
+                </Button>
+              </Link>
+              <Link href="/portfolio">
+                <Button size="lg" variant="outline" className="rounded-full border-pink-500/50 text-pink-400 hover:bg-pink-500/10 text-lg px-8">
+                  Voir mes réalisations
+                </Button>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Quick Services Preview */}
+      <section className="py-20 px-6">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <Badge variant="secondary" className="mb-4 rounded-full bg-pink-500/20 text-pink-300 border-pink-500/30">
+              Services
+            </Badge>
+            <h2 className="text-5xl font-bold tracking-tight mb-4 text-white">Ce que je fais</h2>
+            <p className="text-xl text-gray-400 max-w-2xl mx-auto">
+              Des solutions numériques complètes adaptées à vos besoins
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            <Card className="p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30 hover:border-pink-500/50 transition-all hover:glow-pink group">
+              <div className="w-14 h-14 bg-gradient-to-br from-pink-500 to-pink-600 rounded-2xl flex items-center justify-center mb-6 glow-pink group-hover:scale-110 transition-transform">
+                <Sparkles className="w-7 h-7 text-white" />
+              </div>
+              <h3 className="text-2xl font-semibold mb-4 text-white">Design UI/UX</h3>
+              <p className="text-gray-400 mb-6">
+                Création d'interfaces intuitives et visuellement époustouflantes qui captivent vos utilisateurs.
+              </p>
+              <Link href="/services#uiux">
+                <Button variant="link" className="text-pink-400 hover:text-pink-300 p-0">
+                  En savoir plus <ArrowRight className="w-4 h-4 ml-1" />
+                </Button>
+              </Link>
+            </Card>
+
+            <Card className="p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30 hover:border-pink-500/50 transition-all hover:glow-pink group">
+              <div className="w-14 h-14 bg-gradient-to-br from-pink-500 to-pink-600 rounded-2xl flex items-center justify-center mb-6 glow-pink group-hover:scale-110 transition-transform">
+                <Zap className="w-7 h-7 text-white" />
+              </div>
+              <h3 className="text-2xl font-semibold mb-4 text-white">Développement Front-End</h3>
+              <p className="text-gray-400 mb-6">
+                Applications web performantes avec React, Next.js et les technologies modernes.
+              </p>
+              <Link href="/services#frontend">
+                <Button variant="link" className="text-pink-400 hover:text-pink-300 p-0">
+                  En savoir plus <ArrowRight className="w-4 h-4 ml-1" />
+                </Button>
+              </Link>
+            </Card>
+
+            <Card className="p-8 bg-gradient-to-br from-pink-500/10 to-pink-600/5 border-pink-500/30 hover:border-pink-500/50 transition-all hover:glow-pink group">
+              <div className="w-14 h-14 bg-gradient-to-br from-pink-500 to-pink-600 rounded-2xl flex items-center justify-center mb-6 glow-pink group-hover:scale-110 transition-transform">
+                <Heart className="w-7 h-7 text-white" />
+              </div>
+              <h3 className="text-2xl font-semibold mb-4 text-white">WordPress</h3>
+              <p className="text-gray-400 mb-6">
+                Solutions WordPress personnalisées qui évoluent avec votre entreprise.
+              </p>
+              <Link href="/services#wordpress">
+                <Button variant="link" className="text-pink-400 hover:text-pink-300 p-0">
+                  En savoir plus <ArrowRight className="w-4 h-4 ml-1" />
+                </Button>
+              </Link>
+            </Card>
+          </div>
+
+          <div className="text-center mt-12">
+            <Link href="/services">
+              <Button size="lg" className="rounded-full bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 glow-pink">
+                Voir tous les services <ArrowRight className="w-4 h-4 ml-2" />
+              </Button>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-20 px-6">
+        <div className="max-w-5xl mx-auto">
+          <Card className="p-16 bg-gradient-to-br from-pink-500/20 to-pink-600/10 border-pink-500/40 glow-pink-strong text-center">
+            <h2 className="text-5xl font-bold tracking-tight mb-6 text-white">
+              Prête à donner vie à votre projet ?
+            </h2>
+            <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
+              Discutons de votre vision et créons ensemble quelque chose d'extraordinaire.
+            </p>
+            <div className="flex gap-4 justify-center">
+              <Link href="/contact">
+                <Button size="lg" className="rounded-full bg-white text-pink-600 hover:bg-gray-100 text-lg px-8">
+                  Contactez-moi <ArrowRight className="w-5 h-5 ml-2" />
+                </Button>
+              </Link>
+              <Link href="/portfolio">
+                <Button size="lg" variant="outline" className="rounded-full border-pink-400 text-pink-400 hover:bg-pink-500/10 text-lg px-8">
+                  Voir mon portfolio
+                </Button>
+              </Link>
+            </div>
+          </Card>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="py-12 px-6 border-t border-pink-500/20">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-6">
+            <div>
+              <h3 className="font-semibold text-lg mb-2 text-white">Flora NOUDOUKOU</h3>
+              <p className="text-sm text-gray-400">Designer UI/UX & Développeuse Front-End</p>
+            </div>
+            <div className="flex gap-6">
+              <Link href="/services" className="text-gray-400 hover:text-pink-400 transition-colors text-sm">Services</Link>
+              <Link href="/portfolio" className="text-gray-400 hover:text-pink-400 transition-colors text-sm">Portfolio</Link>
+              <Link href="/about" className="text-gray-400 hover:text-pink-400 transition-colors text-sm">À propos</Link>
+              <Link href="/contact" className="text-gray-400 hover:text-pink-400 transition-colors text-sm">Contact</Link>
+            </div>
+          </div>
+          <div className="mt-8 pt-8 border-t border-pink-500/20 text-center text-sm text-gray-500">
+            <p>© 2025 Flora NOUDOUKOU. Tous droits réservés.</p>
+          </div>
+        </div>
       </footer>
     </div>
   );
